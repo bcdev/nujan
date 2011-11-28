@@ -1,0 +1,8 @@
+A Nujan library fork
+====================
+
+This repository contains a fork of the Nujan library containing 
+bug fixes. The original code is available from the project home page:
+http://www.ral.ucar.edu/~steves/nujan.html
+
+This repository may vanish when the bug fixes get accepted upstream.
