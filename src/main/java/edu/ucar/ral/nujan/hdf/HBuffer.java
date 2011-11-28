@@ -351,6 +351,9 @@ throws IOException, HdfException
     throwerr("caught: %s", exc);
   }
   bbuf.clear();
+  if (compressionLevel > 0) {
+    deflater.end();
+  }
   if (hdfFile.bugs >= 5)
     prtf("flush.exit: outChannel.pos: %d", outChannel.position());
 }
